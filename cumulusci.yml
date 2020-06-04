@@ -1,8 +1,8 @@
 minimum_cumulusci_version: '3.12.2'
 project:
-    name: cci-unmanaged-app
+    name: Food-Bank-Implementation
     package:
-        name:  cci-unmanaged-app
+        name:  Food-Bank-Implementation
         api_version: '48.0'
     dependencies:
         - github: 'https://github.com/SalesforceFoundation/NPSP'
@@ -14,14 +14,14 @@ sources:
 tasks:
     robot:
         options:
-            suites: robot/cci-unmanaged-app/tests
+            suites: robot/Food-Bank-Implementation/tests
             options:
-                outputdir: robot/cci-unmanaged-app/results
+                outputdir: robot/Food-Bank-Implementation/results
 
     robot_testdoc:
         options:
-            path: robot/cci-unmanaged-app/tests
-            output: robot/cci-unmanaged-app/doc/cci-unmanaged-app_tests.html
+            path: robot/Food-Bank-Implementation/tests
+            output: robot/Food-Bank-Implementation/doc/Food-Bank-Implementation_tests.html
 flows:
     dependencies:
         steps:
