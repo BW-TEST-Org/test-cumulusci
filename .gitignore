@@ -9,7 +9,7 @@
 __pycache__
 
 # Robot Framework results
-robot/cci-unmanaged-app/results/
+robot/Food-Bank-Implementation/results/
 
 # Editors
 *.sublime-project
